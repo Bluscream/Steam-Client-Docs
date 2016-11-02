@@ -1,0 +1,66 @@
+###### Taken from Steam Client Win64 Beta 1498032887 built Nov 1 2016, at 12:01:19
+
+Steams Command Line Arguments are prefixed with `-`.
+
+```
+-480p - Run tenfoot in 480p rather than 1080p
+-720p - Run tenfoot in 720p rather than 1080p
+-accountrecovery - Perform account recovery
+-all_languages - show longest loc string from any language
+-bigpicture - Start in Steam Big Picture mode
+-cafeapplaunch - Launch apps in a cyber cafe context
+-candidates - Show libjingle candidates for local connection as they are processed
+-ccsyntax - Spew details about the localized strings we load
+-cef-winxp - force running the WinXP compatible CEF browser
+-community - Set the community URL
+-complete_install_via_http - Run installation completion over HTTP by default
+-console -
+-cybercafe - Forces cyber cafe mode for debugging
+-debugbutton - Show debug button in content frame header
+-debug_steamapi - enables logging of Steam API functions
+-dev - enables developer spew
+-disable-winh264 - disables loading winh264.dll
+-dumpvideostream - Dump the game stream as an elementary video file
+-enablealloobesteps -
+-forcecontrollerappid - Force a Specific AppID for Steam Controller Config - Prevents context/app switching from changing configuration
+-forceservice - Run Steam Client Service even if Steam has admin rights
+-fs_log - Log file system accesses
+-fs_logbins - Log the binaries we load during operation
+-fs_target - Set target syntax
+-fulldesktopres - Run tenfoot in full desktop resolution rather than 1080p, overrides -720p as well.
+-fullscreenopengl - Use the full screen OpenGL render for the UI
+-install - Install game from media
+-installer_test - changes installing a retail game to emit all files to install_validate/ folder instead of to the steam cache
+-language - Set Steam client UI language
+-lognetapi - logs all P2P networking info to log/netapi_log.txt
+-log_voice - writes voice chat data to the logs/voice_log.txt file
+-musiccrawltrack - Add menu to crawl track and print result to console
+-musicdbforcerebuild - Forces a rebuild and recrawl of the music database
+-no-browser - unconditionally disables CEF
+-no-cef-sandbox - disables sandboxing in CEF
+-no-dwrite - forces CEF to use GDI text even if DWrite support is available
+-no-shared-textures - forces overlay to avoid sharing texture handles with game process
+-nobigpicture - Start in regular mode (force Big Picture mode off)
+-noconsole -
+-opengl - Use the OpenGL render for the UI
+-pretend_ipt - Pretend system is IPT capable
+-pretend_ipt_bad - Pretend IPT credential is bad
+-pretend_not_ipt - Pretend system is not IPT capable
+-show-ssa - force display of SSA
+-silent - Silent startup mode (tray mode only)
+-single_core - Force Steam to run on your primary CPU only
+-steamos -
+-store - Set the store URL
+-storebeta - 0
+-supernav -
+-tcp - forces connection to Steam backend to be via TCP
+-tenfoot - Start in Steam Big Picture mode
+-testbutton - Show test button on main menu
+-vguifocus - Print out details of which panel has keyboard focus
+-vguimessages - set to see debug vgiui2 messages
+-voicerelay - Only allow 'relay' connections for voice (testing).
+-vrdisable - Disable VR - never even try to load OpenVR DLLs
+-vrforce - Always perform Hmd status check even if we crashed the last time we tried
+-vrskip - Skip VR initialization entirely no matter who asks for it
+-windowed - Run Steam tenfoot mode in a window rather than a fullscreen borderless window
+```
