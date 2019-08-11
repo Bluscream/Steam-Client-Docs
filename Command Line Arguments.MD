@@ -22,6 +22,7 @@ Steams Command Line Arguments are prefixed with `-`.
 -disable-winh264 - disables loading winh264.dll
 -dumpvideostream - Dump the game stream as an elementary video file
 -enablealloobesteps -
+-exitsteam - Exit Steam immidately after the update check on startup
 -forcecontrollerappid - Force a Specific AppID for Steam Controller Config - Prevents context/app switching from changing configuration
 -forceservice - Run Steam Client Service even if Steam has admin rights
 -fs_log - Log file system accesses
@@ -49,7 +50,7 @@ Steams Command Line Arguments are prefixed with `-`.
 -show-ssa - force display of SSA
 -silent - Silent startup mode (tray mode only)
 -single_core - Force Steam to run on your primary CPU only
--steamos -
+-steamos - Run Steam tenfoot mode in SteamOS mode
 -store - Set the store URL
 -storebeta - 0
 -supernav -
