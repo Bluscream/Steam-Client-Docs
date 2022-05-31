@@ -45,8 +45,8 @@ dump_scheduled_functions - usage: "dump_scheduled_functions" Displays internal S
 enable_license - <packagid> Enables a previously disabled license that was granted through the Steamworks site
 get_download_throttle -
 html_exit_fullscreen - If the web panel for the ui is currently fullscreen, undo that
-install_folder_add - <path>
-install_folder_list - list all mounted Steam volumes
+library_folder_add - <path>
+library_folder_list - list all mounted Steam volumes
 install_folder_ui - show UI dialog
 join_steam_use_web = "0" -
 kv_stats - Render KeyValues stats
